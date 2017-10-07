@@ -24,3 +24,12 @@ brew install mpv
 ![](http://ww3.sinaimg.cn/large/0060lm7Tly1fjvwhu4colj31kw0vyb2c.jpg)
 ![](http://ww4.sinaimg.cn/large/0060lm7Tly1fjvwh3bxhrj31hc0u0e83.jpg)
 
+### 4.Install dylibbundler (For Release Build)
+
+dylibbundler will bundle the dynamic libraries(libmpv.dylib, libavcodec.dylib, ...) into the App package. The executable binary will be fixed to link the libraries properly.
+
+```bash
+$ go get github.com/bbirec/dylibbundler
+```
+
+
